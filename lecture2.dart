@@ -40,6 +40,10 @@ void main() {
         print("Friday");
         break;
       }
+     default:
+      {
+        print("Invalid choice");
+      }
   }
   print("We are studying functions and its types!!!");
   print("NO RETURN TYPE AND NO PARAMETER");
@@ -97,3 +101,4 @@ int addition({int? a, required int? b}) {
 int ad(int a, [int? b]) {
   return a + b!;
 }
+
